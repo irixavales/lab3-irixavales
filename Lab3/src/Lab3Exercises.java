@@ -5,7 +5,9 @@ public class Lab3Exercises {
 		JFrame myFrame = new JFrame("Irixa Vales");
 		myFrame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
 		myFrame.setLocation(860, 440);
-		myFrame.setSize(200, 200);
+		myFrame.setSize(220, 160);
+		MyPanelClass myPanel = new MyPanelClass();
+		myFrame.getContentPane().add(myPanel);
 		myFrame.setVisible(true);
 	}
 }
